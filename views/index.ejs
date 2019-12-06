@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="container">
+        <fieldset >
+        <div class="form-style-2">
+        <div class="form-style-2-heading">Please enter values of the variables</div>
+        <form action="/" method="post">
+          <label for="is_goal">
+            <span>is_goal </span>
+            <input type="number" class="input-field" name="is_goal" value="" />
+          </label>
+          <label for="fast_break">
+              <span>fast_break</span>
+              <input type="number" class="input-field" name="fast_break" value="" />
+          </label>
+          <label for="loc_centre_box">
+              <span>loc_centre_box</span>
+              <input type="number" class="input-field" name="loc_centre_box" value="" />
+          </label>
+          <label for="loc_diff_angle_lr">
+              <span>loc_diff_angle_lr  </span>
+              <input type="number" class="input-field" name="loc_diff_angle_lr" value="" />
+          </label>
+          <label for="diff_angle_left">
+              <span>diff_angle_left  </span>
+              <input type="number" class="input-field" name="diff_angle_left" value="" />
+          </label>
+          <label for="diff_angle_right">
+              <span>diff_angle_right  </span>
+              <input type="number" class="input-field" name="diff_angle_right" value="" />
+          </label>
+          <label for="left_side_box">
+              <span>left_side_box   </span>
+              <input type="number" class="input-field" name="left_side_box" value="" />
+          </label>
+          <label for="left_side_6ybox">
+              <span>left_side_6ybox   </span>
+              <input type="number" class="input-field" name="left_side_6ybox" value="" />
+          </label>
+          <label for="right_side_box">
+              <span>right_side_box   </span>
+              <input type="number" class="input-field" name="right_side_box" value="" />
+          </label>
+          <label for="right_side_6ybox">
+              <span>right_side_6ybox  </span>
+              <input type="number" class="input-field" name="right_side_6ybox" value="" />
+          </label>
+          <label for="close_range ">
+              <span>close_range   </span>
+              <input type="number" class="input-field" name="close_range" value="" />
+          </label>
+          <label for="penalty ">
+              <span>penalty   </span>
+              <input type="number" class="input-field" name="penalty" value="" />
+          </label>
+          <label for="outside_box">
+              <span>outside_box  </span>
+              <input type="number" class="input-field" name="outside_box" value="" />
+          </label>
+          <label for="long_range ">
+              <span>long_range   </span>
+              <input type="number" class="input-field" name="long_range" value="" />
+          </label>
+          <label for="more_35y">
+              <span>more_35y  </span>
+              <input type="number" class="input-field" name="more_35y" value="" />
+          </label>
+          <label for="more_40y">
+              <span>more_40y  </span>
+              <input type="number" class="input-field" name="more_40y" value="" />
+          </label>
+          <label for="right_foot">
+              <span>right_foot'  </span>
+              <input type="number" class="input-field" name="right_foot" value="" />
+          </label>
+          <label for="left_foot">
+              <span>left_foot'  </span>
+              <input type="number" class="input-field" name="left_foot" value="" />
+          </label>
+          <label for="header">
+              <span>header  </span>
+              <input type="number" class="input-field" name="header" value="" />
+          </label>
+          <label for="header">
+              <span>header  </span>
+              <input type="number" class="input-field" name="header" value="" />
+          </label>
+          <label for="assist_pass">
+              <span>assist_pass  </span>
+              <input type="number" class="input-field" name="assist_pass" value="" />
+          </label>
+          <label for="assist_cross">
+              <span>assist_cross  </span>
+              <input type="number" class="input-field" name="assist_cross" value="" />
+          </label>
+          <label for="assist_header">
+              <span>assist_header  </span>
+              <input type="number" class="input-field" name="assist_header" value="" />
+          </label>
+          <label for="assist_through_ball">
+              <span>assist_through_ball  </span>
+              <input type="number" class="input-field" name="assist_through_ball" value="" />
+          </label>
+          <label for="open_play">
+              <span>open_play  </span>
+              <input type="number" class="input-field" name="open_play" value="" />
+          </label>
+          <label for="set_piece">
+              <span>set_piece  </span>
+              <input type="number" class="input-field" name="set_piece" value="" />
+          </label>
+          <label for="corner">
+              <span>corner  </span>
+              <input type="number" class="input-field" name="corner" value="" />
+          </label>
+          <label for="free_kick">
+              <span>free_kick  </span>
+              <input type="number" class="input-field" name="free_kick" value="" />
+          </label>
+          <label for="field1">
+              <span>submit  </span>
+              <input type="number" class="input-field" name="field1" value="" />
+          </label>
+          <label><span> </span><input type="submit" value="Submit" /></label>
+        </form>
+
+        <% if(data !== null){ %>
+          <p><%= data %></p>
+        <% } %>
+
+        <% if(error !== null){ %>
+          <p><%= error %></p>
+        <% } %>
+        
+      </div>
+      </fieldset>
+    </div>
+  </body>
+</html>
